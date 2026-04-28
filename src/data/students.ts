@@ -58,5 +58,5 @@ export const students: Student[] = [
   { id: 50, name: "Gita Anjani", class: "XII IPS 2", isGraduated: true },
 ];
 
-// Set the release date - change this to your desired date
-export const RELEASE_DATE = new Date("2026-05-15T08:00:00+07:00");
+// Start the countdown from 10 seconds when the app loads
+export const RELEASE_DATE = new Date(Date.now() + 10_000);
